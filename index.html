@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web development</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script defer src="index.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="images/Frame 10.png" alt="logo" class="logo" />
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+          <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+          <li>
+            <a href="/services.html" class="navbar-link services-link"
+              >services</a
+            >
+          </li>
+          <li><a href="/portfolio.html" class="navbar-link skill-link">Portfolio</a></li>
+          <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-btn">
+        <ion-icon name="menu" class="menu-icon"></ion-icon>
+      </div>
+    </header>
+
+    <!-- ========================
+    heue section is start now
+    ======================== -->
+
+    <section class="section section-hero">
+      <div class="container grid grid-tow-columns">
+        <div class="section-hero-data">
+          <p class="hero-top-data">This is me</p>
+          <h1 class="hero-heading">ADNAN RAFIQ</h1>
+          <p class="hero-para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab neque
+            quos dicta nam ipsam, iusto deleniti fugiat atque laborum eum
+          </p>
+          <div>
+            <a href="/contact.html" class="btn hire-me-btn">hire me</a>
+          </div>
+        </div>
+        <div class="section-hero-image">
+          <!-- <img src="https://dcv19h61vib2d.cloudfront.net/thumbs/egghead-create-custom-checkbox-css-styles-B26AcrRgJ/egghead-create-custom-checkbox-css-styles-B26AcrRgJ.jpg" alt="" /> -->
+
+          <svg
+            width="100%"
+            viewBox="0 0 303 172"
+            fill="none"
+            preserveAspectRatio="xMidYMid meet"
+            class=""
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M229.565 160.229c32.647-10.984 57.366-41.988 53.825-86.81-5.381-68.1-71.025-84.993-111.918-64.932C115.998 35.7 108.972 40.16 69.239 40.16c-29.594 0-59.726 14.254-63.492 52.791-2.73 27.933 8.252 52.315 48.89 64.764 73.962 22.657 143.38 13.128 174.928 2.513Z"
+              fill="#DAF7F3"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M131.589 68.942h.01c6.261 0 11.336-5.263 11.336-11.756S137.86 45.43 131.599 45.43c-5.081 0-9.381 3.466-10.822 8.242a7.302 7.302 0 0 0-2.404-.405c-4.174 0-7.558 3.51-7.558 7.838s3.384 7.837 7.558 7.837h13.216ZM105.682 128.716c3.504 0 6.344-2.808 6.344-6.27 0-3.463-2.84-6.27-6.344-6.27-1.156 0-2.24.305-3.173.839v-.056c0-6.492-5.326-11.756-11.896-11.756-5.29 0-9.775 3.413-11.32 8.132a8.025 8.025 0 0 0-2.163-.294c-4.38 0-7.93 3.509-7.93 7.837 0 4.329 3.55 7.838 7.93 7.838h28.552Z"
+              fill="#fff"
+            ></path>
+            <rect
+              x=".445"
+              y=".55"
+              width="50.58"
+              height="100.068"
+              rx="7.5"
+              transform="rotate(6 -391.775 121.507) skewX(.036)"
+              fill="#42CBA5"
+              stroke="#316474"
+            ></rect>
+            <rect
+              x=".445"
+              y=".55"
+              width="50.403"
+              height="99.722"
+              rx="7.5"
+              transform="rotate(6 -356.664 123.217) skewX(.036)"
+              fill="#fff"
+              stroke="#316474"
+            ></rect>
+            <path
+              d="m57.16 51.735-8.568 82.024a5.495 5.495 0 0 1-6.042 4.895l-32.97-3.465a5.504 5.504 0 0 1-4.897-6.045l8.569-82.024a5.496 5.496 0 0 1 6.041-4.895l5.259.553 22.452 2.36 5.259.552a5.504 5.504 0 0 1 4.898 6.045Z"
+              fill="#EEFEFA"
+              stroke="#316474"
+            ></path>
+            <path
+              d="M26.2 102.937c.863.082 1.732.182 2.602.273.238-2.178.469-4.366.69-6.546l-2.61-.274c-.238 2.178-.477 4.365-.681 6.547Zm-2.73-9.608 2.27-1.833 1.837 2.264 1.135-.917-1.838-2.266 2.27-1.833-.92-1.133-2.269 1.834-1.837-2.264-1.136.916 1.839 2.265-2.27 1.835.92 1.132Zm-.816 5.286c-.128 1.3-.265 2.6-.41 3.899.877.109 1.748.183 2.626.284.146-1.31.275-2.614.413-3.925-.878-.092-1.753-.218-2.629-.258Zm16.848-8.837c-.506 4.801-1.019 9.593-1.516 14.396.88.083 1.748.192 2.628.267.496-4.794 1-9.578 1.513-14.37-.864-.143-1.747-.192-2.625-.293Zm-4.264 2.668c-.389 3.772-.803 7.541-1.183 11.314.87.091 1.74.174 2.601.273.447-3.912.826-7.84 1.255-11.755-.855-.15-1.731-.181-2.589-.306-.04.156-.069.314-.084.474Zm-4.132 1.736c-.043.159-.06.329-.077.49-.297 2.896-.617 5.78-.905 8.676l2.61.274c.124-1.02.214-2.035.33-3.055.197-2.036.455-4.075.627-6.115-.863-.08-1.724-.17-2.585-.27Z"
+              fill="#316474"
+            ></path>
+            <path
+              d="M17.892 48.489a1.652 1.652 0 0 0 1.468 1.803 1.65 1.65 0 0 0 1.82-1.459 1.652 1.652 0 0 0-1.468-1.803 1.65 1.65 0 0 0-1.82 1.459ZM231.807 136.678l-33.863 2.362c-.294.02-.54-.02-.695-.08a.472.472 0 0 1-.089-.042l-.704-10.042a.61.61 0 0 1 .082-.054c.145-.081.383-.154.677-.175l33.863-2.362c.294-.02.54.02.695.08.041.016.069.03.088.042l.705 10.042a.61.61 0 0 1-.082.054 1.678 1.678 0 0 1-.677.175Z"
+              fill="#fff"
+              stroke="#316474"
+            ></path>
+            <path
+              d="m283.734 125.679-138.87 9.684c-2.87.2-5.371-1.963-5.571-4.823l-6.234-88.905c-.201-2.86 1.972-5.35 4.844-5.55l138.87-9.684c2.874-.2 5.371 1.963 5.572 4.823l6.233 88.905c.201 2.86-1.971 5.349-4.844 5.55Z"
+              fill="#fff"
+            ></path>
+            <path
+              d="M144.864 135.363c-2.87.2-5.371-1.963-5.571-4.823l-6.234-88.905c-.201-2.86 1.972-5.35 4.844-5.55l138.87-9.684c2.874-.2 5.371 1.963 5.572 4.823l6.233 88.905c.201 2.86-1.971 5.349-4.844 5.55"
+              stroke="#316474"
+            ></path>
+            <path
+              d="m278.565 121.405-129.885 9.058c-2.424.169-4.506-1.602-4.668-3.913l-5.669-80.855c-.162-2.31 1.651-4.354 4.076-4.523l129.885-9.058c2.427-.169 4.506 1.603 4.668 3.913l5.669 80.855c.162 2.311-1.649 4.354-4.076 4.523Z"
+              fill="#EEFEFA"
+              stroke="#316474"
+            ></path>
+            <path
+              d="m230.198 129.97 68.493-4.777.42 5.996c.055.781-.098 1.478-.363 1.972-.27.5-.611.726-.923.748l-165.031 11.509c-.312.022-.681-.155-1.017-.613-.332-.452-.581-1.121-.636-1.902l-.42-5.996 68.494-4.776c.261.79.652 1.483 1.142 1.998.572.6 1.308.986 2.125.929l24.889-1.736c.817-.057 1.491-.54 1.974-1.214.413-.577.705-1.318.853-2.138Z"
+              fill="#42CBA5"
+              stroke="#316474"
+            ></path>
+            <path
+              d="m230.367 129.051 69.908-4.876.258 3.676a1.51 1.51 0 0 1-1.403 1.61l-168.272 11.735a1.51 1.51 0 0 1-1.613-1.399l-.258-3.676 69.909-4.876a3.323 3.323 0 0 0 3.188 1.806l25.378-1.77a3.32 3.32 0 0 0 2.905-2.23Z"
+              fill="#fff"
+              stroke="#316474"
+            ></path>
+            <circle
+              transform="rotate(-3.989 1304.861 -2982.552) skewX(.021)"
+              fill="#42CBA5"
+              stroke="#316474"
+              r="15.997"
+            ></circle>
+            <path
+              d="m208.184 87.11-3.407-2.75-.001-.002a1.952 1.952 0 0 0-2.715.25 1.89 1.89 0 0 0 .249 2.692l.002.001 5.077 4.11v.001a1.95 1.95 0 0 0 2.853-.433l8.041-12.209a1.892 1.892 0 0 0-.573-2.643 1.95 1.95 0 0 0-2.667.567l-6.859 10.415Z"
+              fill="#fff"
+              stroke="#316474"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+    heue section is start now
+    ======================== -->
+
+    <section class="section section-bio-data">
+      <div class="container grid grid-tow-columns">
+        <div class="bio-img">
+          <img src="images/biodata.png" alt="" />
+        </div>
+        <div class="bio-data">
+          <h2 class="section-heading">my bio-data</h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            cupiditate at consectetur maiores mollitia doloribus eos soluta
+            nulla natus fugiat.
+          </p>
+
+          <div class="bio-data-status">
+            <div class="bio-status">
+              <h3 class="status-heading">Design</h3>
+              <div class="status-progress">
+                <span>70%</span>
+              </div>
+            </div>
+
+            <div class="bio-status">
+              <h3 class="status-heading">HTML</h3>
+              <div class="status-progress status-progress-2">
+                <span>80%</span>
+              </div>
+            </div>
+            <div class="bio-status">
+              <h3 class="status-heading">CSS</h3>
+              <div class="status-progress status-progress-3">
+                <span>60%</span>
+              </div>
+            </div>
+            <div class="bio-status">
+              <h3 class="status-heading">JavaScript</h3>
+              <div class="status-progress status-progress-4">
+                <span>70%</span>
+              </div>
+            </div>
+            <div class="bio-status">
+              <h3 class="status-heading">MERAN</h3>
+              <div class="status-progress status-progress-5">
+                <span>40%</span>
+              </div>
+            </div>
+          </div>
+          <div class="bio-data-button">
+            <button class="btn">Download CV</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /* ========================
+     portfolio-section-is-start-now
+    ======================== */ -->
+
+    <section class="section section-portfolio" id="portfolio-section">
+      <div class="container">
+        <h2 class="section-heading">Latest Project</h2>
+        <p class="section-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing
+          <br />
+          elit. Earum cupiditate at consectetur maiores mollitia.
+        </p>
+        <div class="p-btns">
+          <div class="btn p-btn" data-btn-num="1">Web</div>
+          <div class="btn p-btn" data-btn-num="2">youtube</div>
+          <div class="btn p-btn" data-btn-num="3">MernStack</div>
+        </div>
+        <div class="grid grid-three-columns">
+          <div class="image-overlay">
+            <img src="images/download.jpg" alt="" />
+            <div class="overlay pbtn--1">
+              <a href="" class="section-heading">project-1</a>
+            </div>
+          </div>
+          <div class="image-overlay">
+            <img src="images/download (1).jpg" alt="" />
+            <div class="overlay pbtn--1">
+              <a href="" class="section-heading">project-2</a>
+            </div>
+          </div>
+          <div class="image-overlay">
+            <img src="images/download.png" alt="" />
+            <div class="overlay pbtn--1">
+              <a href="" class="section-heading">project-3</a>
+            </div>
+          </div>
+          <div class="image-overlay">
+            <img src="images/download (3).jpg" alt="" />
+            <div class="overlay pbtn--1">
+              <a href="" class="section-heading">project-4</a>
+            </div>
+          </div>
+          <div class="image-overlay">
+            <img src="images/images.jpg" alt="" />
+            <div class="overlay pbtn--1">
+              <a href="" class="section-heading">project-5</a>
+            </div>
+          </div>
+          <div class="image-overlay pbtn--1">
+            <img src="images/download (1).png" alt="" />
+            <div class="overlay">
+              <a href="" class="section-heading">project-6</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================
+    our-services-section-start
+    ========================  -->
+    <!-- <section class="section section-word-data">
+      <div class="container grid grid-four-columns">
+        <div>
+          <h1 class="counter-number">5000</h1>
+          <p>project-complete</p>
+        </div>
+        <div>
+          <h1 class="counter-number">70000</h1>
+          <p>complete app</p>
+        </div>
+        <div>
+          <h1 class="counter-number">2500</h1>
+          <p>project-complete</p>
+        </div>
+        <div>
+          <h1 class="counter-number">3000</h1>
+          <p>real time project</p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ========================
+    our-services-section-start
+     ========================  -->
+
+    <section class="section services-section" id="our-services">
+      <div class="container">
+        <div class="section-heading">services offer</div>
+        <p class="section-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At incidunt
+          odit sequi quis ea tempora ipsum nemo ducimus asperiores ab?
+        </p>
+      </div>
+      <div class="container grid grid-three-columns">
+        <div class="services-box">
+          <ion-icon name="logo-html5" class="service-icons"></ion-icon>
+          <h3>Html5</h3>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            vero provident odit soluta similique repellendus perspiciatis eaque
+            neque iure praesentium.
+          </p>
+        </div>
+        <div class="services-box">
+          <ion-icon name="logo-css3" class="service-icons"></ion-icon>
+          <h3>css3</h3>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            vero provident odit soluta similique repellendus perspiciatis eaque
+            neque iure praesentium.
+          </p>
+        </div>
+        <div class="services-box">
+          <ion-icon name="logo-javascript" class="service-icons"></ion-icon>
+          <h3>JavaScript</h3>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            vero provident odit soluta similique repellendus perspiciatis eaque
+            neque iure praesentium.
+          </p>
+        </div>
+        <div class="services-box">
+          <ion-icon name="logo-figma" class="service-icons"></ion-icon>
+          <h3>Figma</h3>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            vero provident odit soluta similique repellendus perspiciatis eaque
+            neque iure praesentium.
+          </p>
+        </div>
+        <div class="services-box">
+          <ion-icon name="logo-react" class="service-icons"></ion-icon>
+          <h3>Reactjs</h3>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            vero provident odit soluta similique repellendus perspiciatis eaque
+            neque iure praesentium.
+          </p>
+        </div>
+        <div class="services-box">
+          <ion-icon name="logo-css3" class="service-icons"></ion-icon>
+          <h3>Next.js</h3>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            vero provident odit soluta similique repellendus perspiciatis eaque
+            neque iure praesentium.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- /* ======================== 
+    testimonial-section-is-start-now
+    ======================== */ -->
+    <section class="section testimonial-section">
+      <div class="container">
+        <div class="section-heading">Happy clients work</div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Sapiente, illo. Lorem ipsum dolor sit amet consectetur,
+                  adipisicing elit.
+                </p>
+              </div>
+              <div class="swiper-client-data grid grid-tow-columns">
+                <figure>
+                  <img src="images/b34.jpg" alt="client image" />
+                </figure>
+                <div class="client-data-details">
+                  <p>Adnan rafiq</p>
+                  <p>I.T Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                <p>
+                  Lorem ipsum lorem this lorem theisjfk kdjkl kadka kdhf l idhka
+                  dfhdka idhfie dolor sit amet consectetur adipisicing elit.
+                  Sapiente, illoh.
+                </p>
+              </div>
+              <div class="swiper-client-data grid grid-tow-columns">
+                <figure>
+                  <img src="images/b34.jpg" alt="client image" />
+                </figure>
+                <div class="client-data-details">
+                  <p>Adnan rafiq</p>
+                  <p>I.T Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                <p>
+                  Lorem ipsum lorem this lorem theisjfk kdjkl kadka kdhf l idhka
+                  dfhdka idhfie dolor sit amet consectetur adipisicing elit.
+                  Sapiente, illo.
+                </p>
+              </div>
+              <div class="swiper-client-data grid grid-tow-columns">
+                <figure>
+                  <img src="images/b34.jpg" alt="client image" />
+                </figure>
+                <div class="client-data-details">
+                  <p>Adnan rafiq</p>
+                  <p>I.T Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                <p>
+                  Lorem ipsum lorem this lorem theisjfk kdjkl kadka kdhf l idhka
+                  dfhdka idhfie dolor sit amet consectetur adipisicing elit.
+                  Sapiente, illo.
+                </p>
+              </div>
+              <div class="swiper-client-data grid grid-tow-columns">
+                <figure>
+                  <img src="images/b34.jpg" alt="client image" />
+                </figure>
+                <div class="client-data-details">
+                  <p>Adnan rafiq</p>
+                  <p>I.T Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                <p>
+                  Lorem ipsum lorem this lorem theisjfk kdjkl kadka kdhf l idhka
+                  dfhdka idhfie dolor sit amet consectetur adipisicing elit.
+                  Sapiente, illo.
+                </p>
+              </div>
+              <div class="swiper-client-data grid grid-tow-columns">
+                <figure>
+                  <img src="images/b34.jpg" alt="client image" />
+                </figure>
+                <div class="client-data-details">
+                  <p>Adnan rafiq</p>
+                  <p>I.T Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                <p>
+                  Lorem ipsum lorem this lorem theisjfk kdjkl kadka kdhf l idhka
+                  dfhdka idhfie dolor sit amet consectetur adipisicing elit.
+                  Sapiente, illo.
+                </p>
+              </div>
+              <div class="swiper-client-data grid grid-tow-columns">
+                <figure>
+                  <img src="images/b34.jpg" alt="client image" />
+                </figure>
+                <div class="client-data-details">
+                  <p>Adnan rafiq</p>
+                  <p>I.T Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                <p>
+                  Lorem ipsum lorem this lorem theisjfk kdjkl kadka kdhf l idhka
+                  dfhdka idhfie dolor sit amet consectetur adipisicing elit.
+                  Sapiente, illo.
+                </p>
+              </div>
+              <div class="swiper-client-data grid grid-tow-columns">
+                <figure>
+                  <img src="images/b34.jpg" alt="client image" />
+                </figure>
+                <div class="client-data-details">
+                  <p>Adnan rafiq</p>
+                  <p>I.T Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                <p>
+                  Lorem ipsum lorem this lorem theisjfk kdjkl kadka kdhf l idhka
+                  dfhdka idhfie dolor sit amet consectetur adipisicing elit.
+                  Sapiente, illo.
+                </p>
+              </div>
+              <div class="swiper-client-data grid grid-tow-columns">
+                <figure>
+                  <img src="images/b34.jpg" alt="client image" />
+                </figure>
+                <div class="client-data-details">
+                  <p>Adnan rafiq</p>
+                  <p>I.T Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-client-msg">
+                <p>
+                  Lorem ipsum lorem this lorem theisjfk kdjkl kadka kdhf l idhka
+                  dfhdka idhfie dolor sit amet consectetur adipisicing elit.
+                  Sapiente, illo.
+                </p>
+              </div>
+              <div class="swiper-client-data grid grid-tow-columns">
+                <figure>
+                  <img src="images/b34.jpg" alt="client image" />
+                </figure>
+                <div class="client-data-details">
+                  <p>Adnan rafiq</p>
+                  <p>I.T Specialist</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- /* ========================
+    freelancing-section-is-start-now
+     ======================== */ -->
+
+    <section class="section frelancing-section">
+      <!-- <div class="frelancing-overlay"></div> -->
+      <div class="container">
+        <h2>I'm <span>available </span> for freelancing</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="/contact.html" class="btn">HIRE ME</a>
+      </div>
+    </section>
+    <!-- ========================
+   contact-us-section-start
+    ========================  -->
+    <section class="section contact-section">
+      <div class="container">
+        <h2 class="section-heading">contact us</h2>
+      </div>
+      <div class="main-contact-section contact-container">
+        <form  action="https://formspree.io/f/xgeqogka"
+        method="POST" autocomplete="off">
+          <div class="grid grid-tow-columns">
+            <div>
+              <label for="username"></label>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter user name"
+                required
+              />
+            </div>
+            <div>
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email" required
+              />
+            </div>
+          </div>
+          <div>
+            <label for="subject"></label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject.."
+            />
+          </div>
+          <div>
+            <label for="massage"></label>
+            <textarea
+              name="massage"
+              id="massage"
+              cols=""
+              rows="6"
+              placeholder="Enter your massage...." required
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" id="submit" name="submit" class="btn" />
+          </div>
+        </form>
+      
+    </div>
+    </section>
+
+    <!-- ========================
+   footer-section-start
+    ========================  -->
+    <footer class="section-footer section">
+      <div class="container grid grid-four-columns">
+        <div class="f-about">
+          <h3>About</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+            atque sequi quibusdam nobis numquam accusantium?
+          </p>
+        </div>
+        <div class="f-links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward"></ion-icon></span>
+              <a href=""> home </a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward"></ion-icon></span>
+              <a href=""> about </a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward"></ion-icon></span>
+              <a href=""> services </a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward"></ion-icon></span>
+              <a href=""> contact </a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward"></ion-icon> </span>
+              <a href=""> portfolio </a>
+            </li>
+          </ul>
+        </div>
+        <div class="f-services">
+          <h3>services</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward"></ion-icon></span>
+              web designing
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward"></ion-icon></span>
+              web development
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward"></ion-icon></span>
+              MernStack
+            </li>
+          </ul>
+        </div>
+        <div class="hav-query">
+          <h3>Have a Question</h3>
+          <address>
+            <div>
+              <p>
+                <span> <ion-icon name="pin"></ion-icon></span>
+                karachi pakistan
+              </p>
+            </div>
+            <div>
+              <p>
+                <span> <ion-icon name="call"></ion-icon></span>
+                <a href="tel:+923077522229">+923077522229</a>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><ion-icon name="mail"></ion-icon> </span>
+                <a href="mailto:www.adnanrafiq@gmail.com"
+                  >www.adnanrafiq@gmail.com</a
+                >
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+      <div class="copy-write">
+        <p>Copyrites 2022 All rights reserved || this template is made by @adnan rafiq</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>
